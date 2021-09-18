@@ -57,5 +57,5 @@ if search == True: #prevents the search from happening before the list is fully 
                 print(f"\n\tTarget found: {t}\n")
                 found = True
                 break
-    else:
-        pass
+else:
+    pass
