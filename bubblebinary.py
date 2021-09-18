@@ -1,4 +1,4 @@
-#Maybe a binary search I have no idea
+#bubble sorting algorithm followed by binary search
 #Took me 30 minutes to realise the algorithm was attempting to search through an unsorted list even though it was designed for a sorted list
 import random
 
