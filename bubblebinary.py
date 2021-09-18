@@ -1,4 +1,4 @@
-#bubble sorting algorithm followed by binary search
+#Maybe a binary search I have no idea
 #Took me 30 minutes to realise the algorithm was attempting to search through an unsorted list even though it was designed for a sorted list
 import random
 
@@ -23,7 +23,8 @@ for j in range(0,ll2): #This extra for loop prevents the loop from executing aft
             l[i + 1] = swap
             check_for_swap = True
     if check_for_swap == False:
-        search = True #Once the sort has finished, this variable allows the search algorithm to start. 
+        if i==ll-1:
+            search=True #This means the searching algorithm only starts once the list is sorted
         break
 
 print(f'\nSorted: ',l,'\n')
@@ -57,5 +58,3 @@ if search == True: #prevents the search from happening before the list is fully 
                 print(f"\n\tTarget found: {t}\n")
                 found = True
                 break
-else:
-    pass
