@@ -23,7 +23,7 @@ for j in range(0,ll2): #This extra for loop prevents the loop from executing aft
             l[i + 1] = swap
             check_for_swap = True
     if check_for_swap == False:
-        search = True
+        search = True #Once the sort has finished, this variable allows the search algorithm to start. 
         break
 
 print(f'\nSorted: ',l,'\n')
