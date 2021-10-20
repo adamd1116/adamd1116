@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @adamd1116
-- 👀 I’m interested in cybersecurity and/or web development
-- 🌱 I’m currently learning python
-- 💞️ I’m looking to collaborate on idk right now
+- 👀 I’m interested in stack overflow
+- 🌱 I’m currently programming
+- 💞️ I’m looking to collaborate on nothing
 - 📫 How to reach me? dont
 
 <!---
